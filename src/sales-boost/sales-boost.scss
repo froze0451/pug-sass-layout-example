@@ -1,0 +1,34 @@
+@use './sales-boost__ellipse.scss';
+@use './sales-boost__icon.scss';
+
+.sales-boost {
+  font-family: 'Stolzl', sans-serif;
+  font-weight: 400;
+
+  width: 288px;
+  height: 99px;
+
+  box-sizing: border-box;
+  background-color: #121B30;
+  border-radius: 21px;
+  color: #FFFFFF;
+
+  display: flex;
+  align-items: center;
+}
+
+.sales-boost__ellipse {
+  margin-left: 20px;
+}
+
+.sales-boost__description {
+  margin-left: 14px;
+}
+
+.sales-boost__description p:first-of-type {
+  font-size: 22px;
+}
+
+.sales-boost__description p:last-of-type {
+  font-size: 12px;
+}

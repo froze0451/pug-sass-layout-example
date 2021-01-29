@@ -1,0 +1,30 @@
+.profit-growth__table {
+  box-sizing: border-box;
+  height: 164px;
+  width: 238px;
+
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+
+.profit-growth__diagram {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.profit-growth__levels {
+  font-size: 9px;
+  height: 130px;
+  color: #878E9C;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.profit-growth__table td {
+  box-sizing: border-box;
+  height: 41px;
+  width: 34px;
+  border: 1px solid #E6EBF0;
+}

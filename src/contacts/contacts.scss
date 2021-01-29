@@ -1,0 +1,44 @@
+@use './contacts__wassup-ellipse.scss';
+@use './contacts__wassup-ellipse-border.scss';
+@use './contacts__wassup-icon.scss';
+
+.contacts {
+  color: #FFFFFF;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.contacts > p {
+  font-family: 'Stolzl Book', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  width: 166px;
+}
+
+.wassup {
+  margin-left: 43px;
+
+  position: relative;
+  box-sizing: border-box;
+  width: 177px;
+  height: 48px;
+  background-color: #4F15F3;
+  border-radius: 9px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  padding-left: 25px;
+  padding-right: 25px;
+
+  cursor: pointer;
+}
+
+.wassup p {
+  font-family: 'Gotham Pro', sans-serif;
+  font-size: 17px;
+}

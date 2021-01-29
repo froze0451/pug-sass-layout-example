@@ -1,0 +1,19 @@
+.page-description__button {
+  box-sizing: border-box;
+  font-family: 'Stolzl', sans-serif;
+  font-size: 18px;
+  color: #FFFFFF;
+
+  width: 335px;
+  height: 56px;
+  
+  background: #F86161;
+  border-radius: 12px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-left: 21px;
+  cursor: pointer;
+}

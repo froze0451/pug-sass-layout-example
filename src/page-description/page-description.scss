@@ -1,0 +1,30 @@
+@use './page-description__input-number.scss';
+@use './page-description__button.scss';
+
+.page-description__title {
+  font-family: 'Stolzl Book', sans-serif;
+  font-size: 48px;
+  color: #FFFFFF;
+  font-style: normal;
+  line-height: 150%;
+}
+
+.page-description__title span {
+  font-family: 'Stolzl', sans-serif;
+  
+  font-style: normal;
+}
+
+.page-description__clarification {
+  margin-top: 20px;
+  font-family: 'Stolzl Book', sans-serif;
+  font-size: 24px;
+  color: #FFFFFF;
+  line-height: 150.2%;
+}
+
+.page-description__input-section {
+  margin-top: 55px;
+  display: flex;
+  flex-direction: row;
+}

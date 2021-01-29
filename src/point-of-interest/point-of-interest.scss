@@ -1,0 +1,15 @@
+@use './point-of-interest__field.scss';
+@use './point-of-interest__photo.scss';
+@use './point-of-interest__triangle.scss';
+
+.point-of-interest__photo {
+  position: absolute;
+  bottom: 0;
+  right: -16px;
+}
+
+.point-of-interest__triangle {
+  position: absolute;
+  top: 398px;
+  right: 290px;
+}

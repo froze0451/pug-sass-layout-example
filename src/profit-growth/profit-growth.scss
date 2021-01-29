@@ -1,0 +1,59 @@
+@use './profit-growth__ellipse.scss';
+@use './profit-growth__icon.scss';
+@use './profit-growth__diagram.scss';
+@use './profit-growth__curve.scss';
+
+.profit-growth {
+  position: relative;
+
+  font-family: 'Gotham Pro', sans-serif;
+
+  width: 326px;
+  height: 301px;
+
+  background: #FFFFFF;
+  border-radius: 15px;
+
+  box-sizing: border-box;
+
+  padding-top: 22px;
+  padding-left: 23px;
+  padding-bottom: 25px;
+}
+
+.profit-growth__title {
+  font-size: 18px;
+  font-weight: 700;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.profit-growth__ellipse {
+  margin-right: 18px;
+}
+
+.profit-growth__diagram {
+  margin-top: 38px;
+}
+
+.profit-growth__table {
+  position: absolute;
+  top: 112px;
+  left: 55px;
+}
+
+.profit-growth__levels {
+  position: absolute;
+  top: 110px;
+  left: 25px;
+}
+
+.profit-growth__curve {
+  position: absolute;
+  top: 120px;
+  left: 52px;
+}
+
+
